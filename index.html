@@ -16,7 +16,7 @@
 
     async function sendPost() {
       const payload = getQueryParams();
-      const flowUrl = "https://prod-165.westus.logic.azure.com:443/workflows/93df22cd0f7a47cfac53756728cd428c/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=zFJRqzOZkP0tbc8tpORBOeUtj5mguNl4JJfw8V2Q-Tc"; // Paste Power Automate POST URL here
+      const flowUrl = "https://default63545f2732324d74a44dcdd4570634.02.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/93df22cd0f7a47cfac53756728cd428c/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=LPRDQjxPR8ALXpUW39Ypa3ga8_h2LqtlZWiAh6qPY6s"; // Paste Power Automate POST URL here
 
       try {
         await fetch(flowUrl, {
